@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Formulieren Jaimy MG1D</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jaimy Koster">
+  <style>
+#form{
+    border:1px solid black;
+}
+#welbevinden {
+	width:80px;
+    margin-top:-10px;
+    margin-left:10px;
+    background:white;
+}
+#sterkepunten {
+	width:90px;
+    margin-top:-10px;
+    margin-left:10px;
+    background:white;
+}
+#ontwikellen {
+	width:135px;
+    margin-top:-10px;
+    margin-left:10px;
+    background:white;
+}
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+  </style>
+  
+</head>
+
+<body lang="en">
+<h1>Een plan voor jouw ontwikkeling</h1>
+<p>Om een eerste stap te zetten naar een persoonlijke opleidingplan zul je eerst een paar vragen voor jezelf moeten beantwoorden. Dit formulier helpt jou daar bij.</p>
+  <form>
+   
+  Name <input type = "text" name="custname">
+ <select name="klas">
+       <option value = "Selecteer jouw klas"> Selecteer jouw klas</option>
+       <option value="MG1A">MG1A</option>
+       <option value="MG1B">MG1B</option>
+	   <option value="MG1C">MG1C</option>
+	   <option value="MG1D">MG1D</option>
+   </select>
+  <br><br>
+  
+  <div id="form"><p id= "welbevinden"> welbevinden</p>
+  	<p>Hoe positief ben je op dit moment over je opleiding?</p>
+		<input type="radio" name="keuzerondjes" value="1">1
+		<input type="radio" name="keuzerondjes" value="2">2
+		<input type="radio" name="keuzerondjes" value="3">3
+		<input type="radio" name="keuzerondjes" value="4">4
+		<input type="radio" name="keuzerondjes" value="5">5
+		<input type="radio" name="keuzerondjes" value="6">6
+		<input type="radio" name="keuzerondjes" value="7">7
+		<input type="radio" name="keuzerondjes" value="8">8
+		<input type="radio" name="keuzerondjes" value="9">9
+		<input type="radio" name="keuzerondjes" value="10">10
+	<p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken?</p>
+		<input type="radio" name="keuzerondjes" value="1">1
+		<input type="radio" name="keuzerondjes" value="2">2
+		<input type="radio" name="keuzerondjes" value="3">3
+		<input type="radio" name="keuzerondjes" value="4">4
+		<input type="radio" name="keuzerondjes" value="5">5
+		<input type="radio" name="keuzerondjes" value="6">6
+		<input type="radio" name="keuzerondjes" value="7">7
+		<input type="radio" name="keuzerondjes" value="8">8
+		<input type="radio" name="keuzerondjes" value="9">9
+		<input type="radio" name="keuzerondjes" value="10">10
+	<p>Hoeveel vertrouwen heb je momenteel niet in je eigen kunnen?</p>
+		<input type="radio" name="keuzerondjes" value="1">1</input>
+		<input type="radio" name="keuzerondjes" value="2">2</input>
+		<input type="radio" name="keuzerondjes" value="3">3</input>
+		<input type="radio" name="keuzerondjes" value="4">4</input>
+		<input type="radio" name="keuzerondjes" value="5">5</input>
+		<input type="radio" name="keuzerondjes" value="6">6</input>
+		<input type="radio" name="keuzerondjes" value="7">7</input>
+		<input type="radio" name="keuzerondjes" value="8">8</input>
+		<input type="radio" name="keuzerondjes" value="9">9</input>
+		<input type="radio" name="keuzerondjes" value="10">10</input>
+
+  </div>
+  <br>
+  <div id="form"><p id= "sterkepunten">sterke kanten</p> 
+	<br> 
+	<p>Wat zijn jouw sterke kanten?</p>
+        <input type="checkbox" name="HTML/CSS">Coderen in HTML/CSS
+		<input type="checkbox" name="Java">Programmeren in Java
+		<input type="checkbox" name="javascript">Scripting:	programmeren in javascript
+		<input type="checkbox" name="Planning">Planning
+		<input type="checkbox" name="Samenwerken">Samenwerken
+  </div>
+  <br>
+  <div id="form"><p id= "ontwikellen">nog te ontwikkelen</p>
+  <br>
+  <p>Aan welke skills moet je exta aancacht aan besteden?</p>
+        <input type="checkbox" name="HTML/CSS">Coderen in HTML/CSS
+		<input type="checkbox" name="Java">Programmeren in Java
+		<input type="checkbox" name="javascript">Scripting:	programmeren in javascript
+		<input type="checkbox" name="Planning">Planning
+		<input type="checkbox" name="Samenwerken">Samenwerken
+  </div>
+  <br>
+<p>Wat zijn jouw plannen voor de toekomst?</p>
+<textarea name="Opmerkingen" cols="80" rows="10"></textarea>
+<input type="submit" value="verzenden">
+  </form>
+ <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</body>
+</html>
